@@ -6,6 +6,14 @@
     <title>Document</title>
   </head>
   <body>
-    <p>new file</p>
+    <button id="btn">click me !</button>
+
+    <script>
+      const btn = document.getElementById("btn");
+      btn.addEventListener("click", clicked);
+      function clicked() {
+        btn.style.backgroundColor = "green";
+      }
+    </script>
   </body>
 </html>
